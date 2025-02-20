@@ -1,4 +1,8 @@
 # ***NEWS*** #
+
+## NEWEST FILE ##
+[Version](https://github.com/MDdude807/PiPod-0-W-2/blob/main/Versions/Ver%201.0B/PiPod.py)
+
 2/19/25 Version 1.0 B released feb, 19th, 2025
 Currently working on both windows and debian.
 
