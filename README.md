@@ -16,13 +16,19 @@ Currently working on both Windows and Debian.
 Currently works only on Windows. Version 1.0 B should work on Debian.
 
 # About the Project
-The PiPod 0W2 was my idea to bring together affordable Raspberry Pi components and the features of my favorite music players, especially the iPod. I want to make an open-source and easily used media player for Linux and Windows users, but I have chosen to target the Raspberry Pi. I will release support for all platforms whenever I can.
+The PyPod was my idea to bring together affordable Raspberry Pi components and the features of my favorite music players, especially the iPod. I want to make an open-source and easily used media player for Linux and Windows users. I will release support for all platforms whenever I can.
 
 ### The Software
-The project is using [Diet Pi](https://dietpi.com/) as the operating system and is the bulk of the heavy lifting for the actual software. Instead of making this project easier for myself and just using an already made media playing software like [VLC](https://www.videolan.org/vlc/) or [Dragon Player](https://apps.kde.org/dragonplayer/), I decided to code my own music player using [Python](https://www.python.org/) and [Pygame](https://www.pygame.org/news). Python does all the media playback and tracking of metadata and details, while Pygame is the frontend and GUI. The reasoning for the extra work is because I want ***YOU*** to contribute!
+The project is using [Python](https://www.python.org/) and [Pygame](https://www.pygame.org/news). Python does all the media playback and tracking of metadata and details, while Pygame is the frontend and GUI. I plan on making a open source project with details on how to build a portable MP3 player using my software and DietPi to make it happen. The project has a few software requirements that have a posibility to change:
+
+1. Python
+    - pygame
+    - mutagen
+
+2. Windows or Debian
 
 ### The Hardware
-The project is aimed for the Raspberry Pi Zero series boards, and uses DietPi as a base. I personally have used a Waveshare screen and a Raspberry Pi Zero 2 W and some audio tools to create a basic all-in-one device that is a small form factor computer. When I get further in the project, I will give instructions and specifics on the build.
+The project is aimed for the Raspberry Pi Zero series boards, but works on windows and Debian based OS's as well. I personally have used Windows 11 with Visual Studio Code to develop, and A Virtual Machine that is running DietPi to test Debian support. Theoretically it should work on Mac, but I am poor and refuse to use aything Apple, so test if you desire.
 
 ## How to Setup
 On your Debian or DietPi install Python and check if Python is installed:
